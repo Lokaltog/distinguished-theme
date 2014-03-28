@@ -94,9 +94,18 @@
    `(rainbow-delimiters-depth-9-face ((t (:foreground ,dst-yellow+2))))
    ))
 
+;;;###autoload
+(and load-file-name
+     (boundp 'custom-theme-load-path)
+     (add-to-list 'custom-theme-load-path
+                  (file-name-as-directory
+                   (file-name-directory load-file-name))))
+
 ;; rainbow-mode support
 (declare-function rainbow-mode 'rainbow-mode)
 (declare-function rainbow-colorize-by-assoc 'rainbow-mode)
+
+;;;###autoload
 (add-to-list 'safe-local-eval-forms
              '(when (require 'rainbow-mode nil t) (rainbow-mode 1)))
 
