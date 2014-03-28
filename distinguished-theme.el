@@ -101,13 +101,5 @@
                   (file-name-as-directory
                    (file-name-directory load-file-name))))
 
-;; rainbow-mode support
-(declare-function rainbow-mode 'rainbow-mode)
-(declare-function rainbow-colorize-by-assoc 'rainbow-mode)
-
-;;;###autoload
-(add-to-list 'safe-local-eval-forms
-             '(when (require 'rainbow-mode nil t) (rainbow-mode 1)))
-
 (provide-theme 'distinguished)
 ;;; distinguished-theme.el ends here
