@@ -51,7 +51,7 @@
       (dst-blue+1 "#adcad9")
       (dst-blue+2 "#d9e2ff")
       (dst-dark-red "#4a0009")
-      (dst-intense-orange "#f78745")
+      (dst-intense-red "#ff2a00")
       )
   (custom-theme-set-faces
    'distinguished
@@ -77,7 +77,7 @@
    `(font-lock-string-face ((t (:foreground ,dst-green))))
    `(font-lock-type-face ((t (:foreground ,dst-green+1 :weight bold))))
    `(font-lock-variable-name-face ((t (:foreground ,dst-blue+1 :weight normal :slant italic))))
-   `(font-lock-warning-face ((t (:foreground ,dst-intense-orange :weight bold))))
+   `(font-lock-warning-face ((t (:foreground ,dst-intense-red :weight bold))))
 
    ;; basic whitespace-mode (tabs/newlines)
    `(whitespace-tab ((t (:foreground ,dst-bg+2 :background nil :weight normal))))
@@ -102,6 +102,9 @@
    `(rainbow-delimiters-depth-7-face ((t (:foreground ,dst-red+1))))
    `(rainbow-delimiters-depth-8-face ((t (:foreground ,dst-green))))
    `(rainbow-delimiters-depth-9-face ((t (:foreground ,dst-yellow+2))))
+
+   ;; custom stuff from Lokaltog/emacsfiles
+   `(font-lock-format-specifier-face ((t (:foreground ,dst-yellow :weight bold))))
    ))
 
 ;;;###autoload
