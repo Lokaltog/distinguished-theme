@@ -46,6 +46,8 @@
       (dst-blue "#67809c")
       (dst-blue+1 "#b2c3cc")
       (dst-blue+2 "#d9e2ff")
+      (dst-green-2 "#646d14")
+      (dst-green-1 "#869038")
       (dst-green "#a4ac64")
       (dst-green+1 "#ccc768")
       (dst-red-3 "#3f1c0f")
@@ -90,12 +92,12 @@
    `(whitespace-newline ((t (:foreground ,dst-red-3 :background nil :weight normal))))
 
    ;; show parens
-   `(show-paren-mismatch ((t (:foreground ,dst-bg :background ,dst-red :weight bold))))
-   `(show-paren-match ((t (:foreground ,dst-bg :background ,dst-green :weight bold))))
+   `(show-paren-mismatch ((t (:foreground ,dst-fg :background ,dst-red-1 :weight bold))))
+   `(show-paren-match ((t (:foreground ,dst-fg :background ,dst-green-2 :weight bold))))
 
    ;; search highlight
-   `(isearch ((t (:foreground ,dst-bg :background ,dst-green+1 :weight bold :slant normal))))
-   `(isearch-fail ((t (:foreground ,dst-bg :background ,dst-red :weight bold :slant normal))))
+   `(isearch ((t (:foreground ,dst-fg :background ,dst-green-2 :weight bold :slant normal))))
+   `(isearch-fail ((t (:foreground ,dst-fg :background ,dst-red-1 :weight bold :slant normal))))
    `(lazy-highlight ((t (:foreground ,dst-bg :background ,dst-yellow+1 :weight bold :slant normal))))
 
    ;; rainbow delimiters
