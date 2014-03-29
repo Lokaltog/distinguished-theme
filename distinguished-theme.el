@@ -67,7 +67,7 @@
    `(cursor ((t (:foreground ,dst-bg :background ,dst-fg))))
    `(hl-line ((t (:background ,dst-bg+0))))
    `(minibuffer-prompt ((t (:foreground ,dst-green :weight bold))))
-   `(region ((t (:background ,dst-gray))))
+   `(region ((t (:background ,dst-bg+2))))
    `(fringe ((t (:foreground ,dst-gray+2 :background ,dst-bg+1))))
 
    ;; font lock
