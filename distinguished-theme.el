@@ -111,6 +111,17 @@
    `(rainbow-delimiters-depth-8-face ((t (:foreground ,dst-blue+1))))
    `(rainbow-delimiters-depth-9-face ((t (:foreground ,dst-yellow+2))))
 
+   ;; git-gutter
+   `(git-gutter:added ((t (:foreground ,dst-green-1 :weight bold))))
+   `(git-gutter:deleted ((t (:foreground ,dst-red-1 :weight bold))))
+   `(git-gutter:modified ((t (:foreground ,dst-blue :weight bold))))
+   `(git-gutter:unchanged ((t (:foreground ,dst-fg :weight bold))))
+
+   ;; git-gutter-fr
+   `(git-gutter-fr:added ((t (:foreground ,dst-green-1  :weight bold))))
+   `(git-gutter-fr:deleted ((t (:foreground ,dst-red-1 :weight bold))))
+   `(git-gutter-fr:modified ((t (:foreground ,dst-blue :weight bold))))
+
    ;; custom stuff from Lokaltog/emacsfiles
    `(font-lock-format-specifier-face ((t (:foreground ,dst-yellow :weight bold))))
    `(font-lock-number-face ((t (:foreground ,dst-red :weight bold))))
