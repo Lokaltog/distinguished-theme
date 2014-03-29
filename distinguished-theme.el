@@ -76,12 +76,21 @@
    `(font-lock-regexp-grouping-backslash ((t (:foreground ,dst-red :weight bold))))
    `(font-lock-string-face ((t (:foreground ,dst-green))))
    `(font-lock-type-face ((t (:foreground ,dst-green+1 :weight bold))))
-   `(font-lock-variable-name-face ((t (:foreground ,dst-blue+1))))
+   `(font-lock-variable-name-face ((t (:foreground ,dst-blue+1 :weight normal :slant italic))))
    `(font-lock-warning-face ((t (:foreground ,dst-intense-orange :weight bold))))
 
    ;; basic whitespace-mode (tabs/newlines)
    `(whitespace-tab ((t (:foreground ,dst-bg+2 :background nil :weight normal))))
    `(whitespace-newline ((t (:foreground ,dst-dark-red :background nil :weight normal))))
+
+   ;; show parens
+   `(show-paren-mismatch ((t (:foreground ,dst-bg :background ,dst-red :weight bold))))
+   `(show-paren-match ((t (:foreground ,dst-bg :background ,dst-green :weight bold))))
+
+   ;; search highlight
+   `(isearch ((t (:foreground ,dst-bg :background ,dst-green+1 :weight bold :slant normal))))
+   `(isearch-fail ((t (:foreground ,dst-bg :background ,dst-red :weight bold :slant normal))))
+   `(lazy-highlight ((t (:foreground ,dst-bg :background ,dst-yellow+1 :weight bold :slant normal))))
 
    ;; rainbow delimiters
    `(rainbow-delimiters-depth-1-face ((t (:foreground ,dst-yellow+2))))
