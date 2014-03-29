@@ -57,7 +57,6 @@
       (dst-yellow "#d7af5f")
       (dst-yellow+1 "#ffd75f")
       (dst-yellow+2 "#f9ee98")
-      (dst-dark-red "#4a0009")
       (dst-intense-red "#ff2a00")
       )
   (custom-theme-set-faces
@@ -88,7 +87,7 @@
 
    ;; basic whitespace-mode (tabs/newlines)
    `(whitespace-tab ((t (:foreground ,dst-bg+2 :background nil :weight normal))))
-   `(whitespace-newline ((t (:foreground ,dst-dark-red :background nil :weight normal))))
+   `(whitespace-newline ((t (:foreground ,dst-red-3 :background nil :weight normal))))
 
    ;; show parens
    `(show-paren-mismatch ((t (:foreground ,dst-bg :background ,dst-red :weight bold))))
