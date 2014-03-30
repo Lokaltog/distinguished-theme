@@ -123,8 +123,8 @@
    `(git-gutter-fr:modified ((t (:foreground ,dst-blue :weight bold))))
 
    ;; custom stuff from Lokaltog/emacsfiles
-   `(font-lock-format-specifier-face ((t (:foreground ,dst-yellow :weight bold))))
    `(font-lock-number-face ((t (:foreground ,dst-red :weight bold))))
+   `(font-lock-pointer-face ((t (:foreground ,dst-yellow+1))))
    ))
 
 ;;;###autoload
