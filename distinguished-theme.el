@@ -88,7 +88,7 @@
    `(font-lock-warning-face ((t (:foreground ,dst-intense-red :weight bold))))
 
    ;; basic whitespace-mode (tabs/newlines)
-   `(whitespace-tab ((t (:foreground ,dst-bg+2 :background nil :weight normal))))
+   `(whitespace-tab ((t (:foreground ,dst-bg+1 :background nil :weight normal))))
    `(whitespace-newline ((t (:foreground ,dst-red-3 :background nil :weight normal))))
 
    ;; show parens
