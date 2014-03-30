@@ -2,7 +2,7 @@
 
 A modified port of the distinguished theme for vim. Requires Emacs 24.
 
-[![Distinguished screenshot (C code)](screenshot.png)](screenshot.png)
+![Distinguished screenshot](screenshot.png)
 
 Note that custom highlighting isn't supported for a lot of packages yet, support for
 other packages will be added gradually.
