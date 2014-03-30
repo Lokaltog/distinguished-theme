@@ -76,7 +76,7 @@
    `(font-lock-comment-delimiter-face ((t (:foreground ,dst-bg+2))))
    `(font-lock-doc-face ((t (:foreground ,dst-gray))))
    `(font-lock-constant-face ((t (:foreground ,dst-yellow+1 :weight bold))))
-   `(font-lock-function-name-face ((t (:foreground ,dst-red :weight bold :underline ,dst-red-3))))
+   `(font-lock-function-name-face ((t (:foreground ,dst-red :weight bold))))
    `(font-lock-keyword-face ((t (:foreground ,dst-blue :weight bold))))
    `(font-lock-negation-char-face ((t (:foreground ,dst-yellow :weight bold))))
    `(font-lock-preprocessor-face ((t (:foreground ,dst-steel+1 :weight bold :slant italic))))
