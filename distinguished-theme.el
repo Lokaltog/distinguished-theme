@@ -148,6 +148,18 @@
    `(flycheck-fringe-warning ((t (:foreground ,dst-yellow+1 :weight bold))))
    `(flycheck-fringe-info ((t (:foreground ,dst-blue :weight bold))))
 
+   ;; ace-jump
+   `(ace-jump-face-background ((t (:foreground ,dst-gray-2 :background nil :inverse-video nil))))
+   `(ace-jump-face-foreground ((t (:foreground ,dst-bg :background ,dst-intense-red :weight bold :inverse-video nil :box (:line-width -1 :style released-button)))))
+
+   ;; auto-complete
+   `(ac-candidate-face ((t (:foreground ,dst-gray+1 :background ,dst-bg+1))))
+   `(ac-selection-face ((t (:foreground ,dst-fg :background ,dst-blue))))
+   `(popup-tip-face ((t (:foreground ,dst-bg :background ,dst-yellow))))
+   `(popup-scroll-bar-foreground-face ((t (:background ,dst-gray+2))))
+   `(popup-scroll-bar-background-face ((t (:background ,dst-bg+2))))
+   `(popup-isearch-match ((t (:foreground ,dst-fg :background ,dst-bg))))
+
    ;; custom stuff from Lokaltog/emacsfiles
    `(font-lock-number-face ((t (:foreground ,dst-red :weight bold))))
    `(font-lock-pointer-face ((t (:foreground ,dst-yellow+1))))
