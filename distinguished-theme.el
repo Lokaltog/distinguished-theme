@@ -122,6 +122,26 @@
    `(git-gutter-fr:deleted ((t (:foreground ,dst-red-1 :weight bold))))
    `(git-gutter-fr:modified ((t (:foreground ,dst-blue :weight bold))))
 
+   ;; flx
+   `(flx-highlight-face ((t (:foreground ,dst-red :weight bold :underline ,dst-red-2))))
+
+   ;; flycheck
+   `(flycheck-error
+     ((((supports :underline (:style wave)))
+       (:underline (:style wave :color ,dst-red-1) :inherit unspecified))
+      (t (:foreground ,dst-red-1 :weight bold :underline t))))
+   `(flycheck-warning
+     ((((supports :underline (:style wave)))
+       (:underline (:style wave :color ,dst-yellow) :inherit unspecified))
+      (t (:foreground ,dst-yellow :weight bold :underline t))))
+   `(flycheck-info
+     ((((supports :underline (:style wave)))
+       (:underline (:style wave :color ,dst-blue) :inherit unspecified))
+      (t (:foreground ,dst-blue :weight bold :underline t))))
+   `(flycheck-fringe-error ((t (:foreground ,dst-red-1 :weight bold))))
+   `(flycheck-fringe-warning ((t (:foreground ,dst-yellow+1 :weight bold))))
+   `(flycheck-fringe-info ((t (:foreground ,dst-blue :weight bold))))
+
    ;; custom stuff from Lokaltog/emacsfiles
    `(font-lock-number-face ((t (:foreground ,dst-red :weight bold))))
    `(font-lock-pointer-face ((t (:foreground ,dst-yellow+1))))
