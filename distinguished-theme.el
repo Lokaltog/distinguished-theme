@@ -100,9 +100,9 @@
    `(show-paren-match ((t (:foreground ,dst-fg :background ,dst-green-2 :weight bold))))
 
    ;; search highlight
-   `(isearch ((t (:foreground ,dst-fg :background ,dst-green-2 :weight bold :slant normal))))
-   `(isearch-fail ((t (:foreground ,dst-fg :background ,dst-red-1 :weight bold :slant normal))))
-   `(lazy-highlight ((t (:foreground ,dst-bg :background ,dst-yellow+1 :weight bold :slant normal))))
+   `(isearch ((t (:foreground ,dst-fg :background ,dst-green-2 :weight bold :slant normal :box (:line-width -1 :style released-button)))))
+   `(isearch-fail ((t (:foreground ,dst-fg :background ,dst-red-1 :weight bold :slant normal :box (:line-width -1 :style released-button)))))
+   `(lazy-highlight ((t (:foreground ,dst-bg :background ,dst-yellow+1 :weight bold :slant normal :box (:line-width -1 :style released-button)))))
 
    ;; rainbow delimiters
    `(rainbow-delimiters-depth-1-face ((t (:foreground ,dst-yellow+2))))
