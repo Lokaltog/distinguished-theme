@@ -70,7 +70,7 @@
    `(hl-line ((t (:background ,dst-bg+0))))
    `(minibuffer-prompt ((t (:foreground ,dst-green :weight bold))))
    `(region ((t (:background ,dst-bg+2))))
-   `(fringe ((t (:foreground ,dst-gray+2 :background ,dst-bg+0))))
+   `(fringe ((t (:foreground ,dst-gray :background ,dst-bg+0))))
    `(vertical-border ((t (:foreground ,dst-bg+2))))
    `(mode-line ((t (:foreground ,dst-gray+2 :background ,dst-bg+2 :box (:line-width -1 :style released-button)))))
    `(mode-line-buffer-id ((t (:foreground ,dst-green :weight bold))))
