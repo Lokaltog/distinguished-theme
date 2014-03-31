@@ -37,6 +37,8 @@
       (dst-bg+0 "#151311")
       (dst-bg+1 "#252321")
       (dst-bg+2 "#474544")
+      (dst-gray-2 "#58574e")
+      (dst-gray-1 "#6c6a60")
       (dst-gray "#969385")
       (dst-gray+1 "#b4b1a2")
       (dst-gray+2 "#d0cbc0")
