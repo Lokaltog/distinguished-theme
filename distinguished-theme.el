@@ -149,8 +149,8 @@
    `(flycheck-fringe-info ((t (:foreground ,dst-blue :weight bold))))
 
    ;; ace-jump
-   `(ace-jump-face-background ((t (:foreground ,dst-gray-2 :background nil :inverse-video nil))))
-   `(ace-jump-face-foreground ((t (:foreground ,dst-bg :background ,dst-intense-red :weight bold :inverse-video nil :box (:line-width -1 :style released-button)))))
+   `(ace-jump-face-background ((t (:foreground ,dst-gray-2 :background nil :weight normal :inverse-video nil))))
+   `(ace-jump-face-foreground ((t (:foreground ,dst-bg :background ,dst-intense-red :weight bold :slant normal :inverse-video nil :box (:line-width -1 :style released-button)))))
 
    ;; auto-complete
    `(ac-candidate-face ((t (:foreground ,dst-gray+1 :background ,dst-bg+1))))
