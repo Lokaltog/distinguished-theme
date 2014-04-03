@@ -154,6 +154,7 @@
 
    ;; auto-complete
    `(ac-candidate-face ((t (:foreground ,dst-gray :background ,dst-bg+1))))
+   `(ac-completion-face ((t (:foreground ,dst-gray-1 :background nil :weight normal :slant normal :underline ,dst-bg+1))))
    `(ac-selection-face ((t (:foreground ,dst-fg :background ,dst-blue :weight bold))))
    `(popup-tip-face ((t (:foreground ,dst-bg :background ,dst-yellow))))
    `(popup-scroll-bar-foreground-face ((t (:background ,dst-gray+2))))
