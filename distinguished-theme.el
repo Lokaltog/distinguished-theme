@@ -153,8 +153,8 @@
    `(ace-jump-face-foreground ((t (:foreground ,dst-bg :background ,dst-intense-red :weight bold :slant normal :inverse-video nil :box (:line-width -1 :style released-button)))))
 
    ;; auto-complete
-   `(ac-candidate-face ((t (:foreground ,dst-gray+1 :background ,dst-bg+1))))
-   `(ac-selection-face ((t (:foreground ,dst-fg :background ,dst-blue))))
+   `(ac-candidate-face ((t (:foreground ,dst-gray :background ,dst-bg+1))))
+   `(ac-selection-face ((t (:foreground ,dst-fg :background ,dst-blue :weight bold))))
    `(popup-tip-face ((t (:foreground ,dst-bg :background ,dst-yellow))))
    `(popup-scroll-bar-foreground-face ((t (:background ,dst-gray+2))))
    `(popup-scroll-bar-background-face ((t (:background ,dst-bg+2))))
