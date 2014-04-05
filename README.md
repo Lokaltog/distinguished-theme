@@ -15,10 +15,10 @@ Install from MELPA:
 M-x package-install RET distinguished-theme
 ```
 
-Load the theme with `M-x load-theme RET distinguished-theme`.
+Load the theme with `M-x load-theme RET distinguished`.
 
 To set distinguished as the default theme, add this to your init file:
 
 ```lisp
-(load-theme 'distinguished-theme t)
+(load-theme 'distinguished t)
 ```
