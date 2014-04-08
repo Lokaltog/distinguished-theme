@@ -58,6 +58,8 @@
       (dst-red         (if (display-graphic-p) "#d47c59" "color-179"))
       (dst-red+1       (if (display-graphic-p) "#edb08f" "color-173"))
       (dst-red+2       (if (display-graphic-p) "#edbca2" "color-208"))
+      (dst-yellow-2    (if (display-graphic-p) "#875f00" "color-94"))
+      (dst-yellow-1    (if (display-graphic-p) "#ffd700" "color-220"))
       (dst-yellow      (if (display-graphic-p) "#d7af5f" "color-226"))
       (dst-yellow+1    (if (display-graphic-p) "#ffd75f" "color-137"))
       (dst-yellow+2    (if (display-graphic-p) "#f9ee98" "color-228"))
@@ -163,7 +165,25 @@
    ;; custom stuff from Lokaltog/emacsfiles
    `(font-lock-number-face ((t (:foreground ,dst-red :weight bold))))
    `(font-lock-pointer-face ((t (:foreground ,dst-yellow+1))))
-   ))
+
+   ;; diff
+   `(diff-added ((t (:foreground ,dst-green :background ,dst-green-2))))
+   `(diff-changed ((t (:foreground ,dst-yellow-1 :background ,dst-yellow-2))))
+   `(diff-file-header ((t (:background ,dst-green+1 :weight bold))))
+   `(diff-function ((t (:background ,dst-gray-1))))
+   `(diff-header ((t (:background ,dst-gray-1))))
+   `(diff-hunk-header ((t (:background ,dst-gray-1))))
+   `(diff-index ((t (:background ,dst-blue+1))))
+   `(diff-indicator-added ((t (:foreground ,dst-green-1 :weight bold))))
+   `(diff-indicator-changed ((t (:foreground ,dst-yellow-1 :weight bold))))
+   `(diff-indicator-removed ((t (:foreground ,dst-red-1 :weight bold))))
+   `(diff-refine-added ((t (:foreground ,dst-green :background
+                                        ,dst-green-1 :weight bold))))
+   `(diff-refine-change ((t (:foreground ,dst-yellow-1 :background
+                                         ,dst-red+2 :weight bold))))
+   `(diff-refine-removed ((t (:foreground ,dst-red-1 :background ,dst-red+1))))
+   `(diff-removed ((t (:foreground ,dst-red-1))))
+  ))
 
 ;;;###autoload
 (and load-file-name
