@@ -73,9 +73,9 @@
    `(region ((t (:background ,dst-bg+2))))
    `(fringe ((t (:foreground ,dst-gray :background ,dst-bg+0))))
    `(vertical-border ((t (:foreground ,dst-bg+2))))
-   `(mode-line ((t (:inherit variable-pitch :foreground ,dst-gray+2 :background ,dst-bg+2 :box (:line-width -1 :style released-button)))))
-   `(mode-line-buffer-id ((t (:inherit variable-pitch :foreground ,dst-green :weight bold))))
-   `(mode-line-inactive ((t (:inherit variable-pitch :foreground ,dst-gray :background ,dst-bg+1 :box (:line-width -1 :style released-button)))))
+   `(mode-line ((t (:foreground ,dst-gray+2 :background ,dst-bg+2 :box (:line-width -1 :style released-button)))))
+   `(mode-line-buffer-id ((t (:foreground ,dst-green :weight bold))))
+   `(mode-line-inactive ((t (:foreground ,dst-gray :background ,dst-bg+1 :box (:line-width -1 :style released-button)))))
 
    ;; font lock
    `(font-lock-builtin-face ((t (:foreground ,dst-yellow+1 :weight bold))))
