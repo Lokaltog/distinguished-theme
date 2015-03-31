@@ -163,6 +163,9 @@
    `(popup-scroll-bar-background-face ((t (:background ,dst-bg+2))))
    `(popup-isearch-match ((t (:foreground ,dst-fg :background ,dst-bg))))
 
+   ;; auto-dim-other-buffers
+   `(auto-dim-other-buffers-face ((t (:foreground ,dst-gray+1 :background ,dst-bg+0))))
+
    ;; custom stuff from Lokaltog/emacsfiles
    `(font-lock-number-face ((t (:foreground ,dst-red :weight bold))))
    `(font-lock-pointer-face ((t (:foreground ,dst-yellow+1))))
