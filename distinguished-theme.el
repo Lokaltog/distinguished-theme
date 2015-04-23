@@ -80,7 +80,7 @@
 
    ;; font lock
    `(font-lock-builtin-face ((t (:foreground ,dst-yellow+1 :weight bold))))
-   `(font-lock-comment-face ((t (:foreground ,dst-gray))))
+   `(font-lock-comment-face ((t (:foreground ,dst-gray, :slant italic))))
    `(font-lock-comment-delimiter-face ((t (:foreground ,dst-bg+2))))
    `(font-lock-doc-face ((t (:foreground ,dst-gray))))
    `(font-lock-constant-face ((t (:foreground ,dst-yellow+1 :weight bold))))
