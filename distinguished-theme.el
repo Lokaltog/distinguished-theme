@@ -96,6 +96,17 @@
    `(font-lock-variable-name-face ((t (:foreground ,dst-blue+1 :weight normal :slant italic))))
    `(font-lock-warning-face ((t (:foreground ,dst-intense-red :weight bold))))
 
+   ;; python-mode
+   `(py-pseudo-keyword-face ((t (:foreground ,dst-blue+1 :weight bold))))
+   `(py-object-reference-face ((t (:foreground ,dst-blue :weight bold :slant italic))))
+   `(py-variable-name-face ((t (:foreground ,dst-blue+1 :weight normal :slant italic))))
+   `(py-number-face ((t (:foreground ,dst-yellow-1 :weight normal :slant italic))))
+   `(py-import-from-face ((t (:foreground ,dst-red))))
+   `(py-def-class-face ((t (:foreground ,dst-blue :weight bold))))
+   `(py-decorators-face ((t (:foreground ,dst-yellow :slant italic))))
+   `(py-class-name-face ((t (:foreground ,dst-green+1 :weight bold))))
+   `(py-exception-name-face ((t (:foreground ,dst-red :weight bold))))
+
    ;; basic whitespace-mode (tabs/newlines)
    `(whitespace-tab ((t (:foreground ,dst-bg+1 :background nil :weight normal))))
    `(whitespace-newline ((t (:foreground ,dst-red-3 :background nil :weight normal))))
