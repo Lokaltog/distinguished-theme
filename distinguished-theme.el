@@ -77,6 +77,7 @@
    `(mode-line ((t (:foreground ,dst-gray+2 :background ,dst-bg+2 :box (:line-width -1 :style released-button)))))
    `(mode-line-buffer-id ((t (:foreground ,dst-green :weight bold))))
    `(mode-line-inactive ((t (:foreground ,dst-gray :background ,dst-bg+1 :box (:line-width -1 :style released-button)))))
+   `(button ((t (:foreground ,dst-blue+1 :underline t))))
 
    ;; font lock
    `(font-lock-builtin-face ((t (:foreground ,dst-yellow+1 :weight bold))))
