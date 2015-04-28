@@ -111,6 +111,9 @@
    `(js2-external-variable ((t (:foreground ,dst-yellow+1 :weight normal :slant italic))))
    `(js2-function-param ((t (:foreground ,dst-red+1 :weight normal :slant italic))))
 
+   ;; highlight-numbers
+   `(highlight-numbers-number ((t (:foreground ,dst-yellow-1 :weight normal :slant italic))))
+
    ;; basic whitespace-mode (tabs/newlines)
    `(whitespace-tab ((t (:foreground ,dst-bg+1 :background nil :weight normal))))
    `(whitespace-newline ((t (:foreground ,dst-red-3 :background nil :weight normal))))
