@@ -182,6 +182,18 @@
    `(popup-scroll-bar-background-face ((t (:background ,dst-bg+2))))
    `(popup-isearch-match ((t (:foreground ,dst-fg :background ,dst-bg))))
 
+   ;; company-mode
+   `(company-tooltip ((t (:foreground ,dst-fg :background ,dst-bg+1))))
+   `(company-tooltip-annotation ((t (:foreground ,dst-gray :background ,dst-bg+1 :slant italic))))
+   `(company-tooltip-selection ((t (:foreground ,dst-fg :background ,dst-blue :weight bold))))
+   `(company-tooltip-mouse ((t (:background ,dst-bg+2))))
+   `(company-tooltip-common ((t (:foreground ,dst-gray :background ,dst-bg+1 :weight bold))))
+   `(company-tooltip-common-selection ((t (:foreground ,dst-blue+2 :background ,dst-blue :weight bold))))
+   `(company-scrollbar-fg ((t (:background ,dst-gray))))
+   `(company-scrollbar-bg ((t (:background ,dst-bg+2))))
+   `(company-preview ((t (:background ,dst-blue))))
+   `(company-preview-common ((t (:foreground ,dst-fg :background ,dst-yellow :weight bold))))
+
    ;; auto-dim-other-buffers
    `(auto-dim-other-buffers-face ((t (:foreground ,dst-gray+1 :background ,dst-bg+0))))
 
