@@ -32,7 +32,7 @@
 ;;; Code:
 (deftheme distinguished "Distinguished color theme")
 
-(let ((dst-fg          (if (display-graphic-p) "#ffffff" "color-231"))
+(let ((dst-fg          (if (display-graphic-p) "#f0fef0" "color-231"))
       (dst-bg          (if (display-graphic-p) "#000000" "color-232"))
       (dst-bg+0        (if (display-graphic-p) "#151311" "color-234"))
       (dst-bg+1        (if (display-graphic-p) "#252321" "color-236"))
